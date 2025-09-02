@@ -1,27 +1,27 @@
 import { Button } from "@/components/ui/button";
-import bagsImage from "@/assets/bags-product.jpg";
-import garmentsImage from "@/assets/garments-product.jpg";
-import matsImage from "@/assets/mats-product.jpg";
+import bagsCheckeredImage from "@/assets/bags-checkered.jpg";
+import garmentsImage from "@/assets/garments-patchwork.jpg";
+import bagsWovenImage from "@/assets/bags-woven.jpg";
 
 const ProductCategories = () => {
   const categories = [
     {
-      title: "Premium Bags",
-      description: "High-quality canvas, jute, and eco-friendly bags for global markets. Customizable designs with sustainable materials.",
-      image: bagsImage,
-      features: ["Canvas Tote Bags", "Jute Shopping Bags", "Custom Branding", "Eco-Friendly Materials"]
+      title: "Checkered Tote Bags",
+      description: "Stylish black and white checkered pattern bags perfect for everyday use. Premium quality fabric with durable construction.",
+      image: bagsCheckeredImage,
+      features: ["Checkered Design", "Durable Handles", "Spacious Interior", "Eco-Friendly Materials"]
     },
     {
-      title: "Export Garments",
-      description: "Professional textile manufacturing with premium fabrics. Complete OEM solutions for international brands.",
+      title: "Patchwork Garments",
+      description: "Unique patchwork cargo pants with vibrant multi-colored design. Comfortable fit with premium stitching and finishing.",
       image: garmentsImage,
-      features: ["Premium Textiles", "Custom Manufacturing", "Quality Assurance", "International Standards"]
+      features: ["Patchwork Design", "Cargo Style", "Comfortable Fit", "Premium Stitching"]
     },
     {
-      title: "Professional Mats",
-      description: "Yoga mats, exercise mats, and specialized rubber products. Built for durability and export quality.",
-      image: matsImage,
-      features: ["Yoga Mats", "Exercise Equipment", "Rubber Products", "Custom Specifications"]
+      title: "Woven Tote Bags",
+      description: "Colorful handwoven tote bags with beautiful vertical stripe patterns. Perfect blend of style and functionality.",
+      image: bagsWovenImage,
+      features: ["Handwoven Design", "Colorful Stripes", "Natural Handles", "Large Capacity"]
     }
   ];
 
